@@ -1,0 +1,31 @@
+
+--------------------------------------------------------------------------------------Solutions---------------------------------------------------------------------------------
+
+2.1.1  Illustration of Insertion sort
+ Input seq - 31 41 59 26 41 58
+  iterations
+   
+   31 41 59 26 41 58
+   31 41 59 26 41 58
+   26 31 41 59 41 58
+   26 31 41 41 59 58
+   26 31 41 41 58 59
+   
+ 
+ 2.1.2 Rewriting the code insertion sort to sort in non increasing order : See code 2.1.2
+ 
+    Insertionsort(A)
+     for(j = 2; j<= n; j++)
+     {
+        key = A[j];
+        i = j-1;
+        while(i>0 && A[i]<key)
+        {
+           A[i+1] = A[i];
+           i = i-1;
+        }
+        
+        A[i+1] = key;  
+     }
+     
+    2.1.3 
