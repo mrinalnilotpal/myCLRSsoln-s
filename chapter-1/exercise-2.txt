@@ -1,0 +1,11 @@
+
+Solutions
+
+1.2.1  An example of algorithmic content at application level includes the payment interface. Many payment interface use number crunching algorithms to generate tokens and 
+checking the credentials while making payments. 
+
+1.2.2  see image 1.2.2
+
+1.2.3 See image 1.2.3 
+
+-------------------------------------------------------------------------------------END---------------------------------------------------------------------------------------
