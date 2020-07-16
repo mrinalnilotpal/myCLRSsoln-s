@@ -28,4 +28,49 @@
         A[i+1] = key;  
      }
      
-    2.1.3 
+    2.1.3  The linear search works in O(n) time to check for n items.
+    The algorithm goes like this.
+    
+    def LinearSearch(A):
+        
+        for i in A:
+            if A[i] = = v;
+              return true
+             
+             else if i > A.length
+              return false
+              
+      Checking the validity involves three states, 
+      1. Initialisation
+      2. Iterarion 
+      3. Termination
+      
+      1. Since before the first iteration if the array content is equal to the target,then it will return true else false . Hence the loop terminates.
+      2. For all the iteration if the key == array content , it will retun  true and false, and the algortihm aims to iterate over all the numbers in the sequence.
+      3. Termination: when the number to be checked or the i dex goes beyond the bounds. Then it will terminate. hENCE THE ALGORITHM IS CORRECT.
+      
+      2.1.4 
+      Algorithms to solve two Binary numbers..
+       see codes at 2.1.4 
+       
+       
+       ---------------------------------------------------------------------END------------------------------------------------------------------------------------------
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
