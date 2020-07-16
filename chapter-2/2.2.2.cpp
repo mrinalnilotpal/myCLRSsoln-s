@@ -11,8 +11,9 @@ int selectiosort(int arr[])
       if(arr[j] < min)
       {
         min = arr[j];
-        arr[i] = min;
+        
       }
     }
+    arr[i] = min;
   }
 }
