@@ -1,0 +1,9 @@
+---------------------------------------------------------------------------------Solution------------------------------------------------------------------------------------------
+4.1.1
+It will return the least neagative element's Index because it do considers the sign and the result is intuitive also as the least neagative number should be the maximum subaraay.
+
+4.1.2
+ See codes 4.1.2
+ 
+ 4.1.3 
+ 
