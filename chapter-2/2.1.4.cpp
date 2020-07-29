@@ -1,3 +1,4 @@
+#Solution to the exercise problems!
 int n-int sum(int A[n], int B[n])
 {
    int carry[n+1],i,j;
