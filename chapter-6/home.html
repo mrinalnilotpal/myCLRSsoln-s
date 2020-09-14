@@ -1,0 +1,255 @@
+<html>
+<title>
+   Welcome to NITPY </title>
+   <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <style>
+           h1{
+           font-size: 40px;
+           text-align: center;
+           text-color: lightgrey;
+           }
+           #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: sticky;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  text-align : center;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+ div.gallery {
+  border: 3px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 3px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+div.Content {
+  background-color: black;
+}
+
+}
+div.Vision{
+ background-color: black;
+}
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+           </style>
+       </head>
+<body>
+<video src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" autoplay loop playsinline muted>
+</video>
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+<header class="viewport-header">
+  <h1>
+    Welcome to
+    <span>NIT-PY</span>
+  </h1>
+</header>
+<div class="Content">
+  <h1><p style="text-align:center;"><font color="lightgreen",size="7", face = "verdana">National Institute of Technology, Puducherry</h1>
+  <p><i>(An Institute for National Importance)</p>
+  <p>Thiruvettakudy, Karaikal, 609609</i></p>
+</div>
+<ul>
+    <div class="header">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="http://www.nitpy.ac.in/academics/index.html">Academics</a></li>
+  <li><a href="http://www.nitpy.ac.in/administration/index.html">Administration</a></li>
+  <li><a href="http://www.nitpy.ac.in/admissions/index.html">Admissions</a></li>
+    <li><a href="http://www.nitpy.ac.in/departments/index.html">Departments</a></li>
+    <li><a href="http://www.nitpy.ac.in/training-and-placement/index.html">Training and Placements</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+</div>
+
+<div class="vision">
+    <h1><p style="text-align:center;"><font color="pink",size="7", face = "verdana"> Vision</h1><hr>
+         <h3 style="text-align:left;"><font color="grey",size="7", face = "verdana">
+    <h3>-To be among leading Indian Institutes for Excellent, Relevant,</h3>
+    <h3>and value based Technical Education and Research.</h3></font>
+
+    <h1>Mission</h1><hr>
+    <h3 style="text-align:left;"><font color="grey",size="7", face = "verdana">
+    <h3>– To create the infrastructure and academic environment on par with best benchmarks.</h3>
+    <h3>– To offer undergraduate, postgraduate and doctoral programms in the technical fields of national importance.</h3>
+    <h3>– To collaborate for research and consultancy works with leading national and international laboratories, institutes, and industries.</h3>
+    <h3>– To train young minds in intellectual and ethical strengths for developing their capacity in the areas of science, engineering, and technology.</h3>
+    <h3>– To relentlessly pursue professional excellence with ethics.</h3>
+    <h3>– To implement continuously improving models of comprehensive education</h3></font>
+    </div>
+
+    <h1>Gallery</h1><hr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="http://www.nitpy.ac.in/wp-content/uploads/2016/04/Entrance.jpg">
+      <img src="http://www.nitpy.ac.in/wp-content/uploads/2016/04/Entrance.jpg" alt="Entrance" width="600" height="400">
+    </a>
+    <div class="desc"><b>ENTRANCE</b></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="http://www.nitpy.ac.in/wp-content/uploads/2016/04/Campus_1.jpg">
+      <img src="http://www.nitpy.ac.in/wp-content/uploads/2016/04/Campus_1.jpg" alt="Campus" width="600" height="400">
+    </a>
+    <div class="desc"><b>BOYS HOSTEL</b></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="http://www.nitpy.ac.in/wp-content/uploads/2016/04/sci_2-550x290.jpg">
+      <img src="http://www.nitpy.ac.in/wp-content/uploads/2016/04/sci_2-550x290.jpg" alt="Science Block" width="600" height="400">
+    </a>
+    <div class="desc"><b>SCIENCE BLOCK</b></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="http://www.nitpy.ac.in/wp-content/uploads/2019/10/IMG-20191010.jpg">
+      <img src="http://www.nitpy.ac.in/wp-content/uploads/2019/10/IMG-20191010.jpg" alt="Leciel" width="600" height="400">
+    </a>
+    <div class="desc"><b>LECIEL</b></div>
+  </div>
+</div>
+<hr>
+<h1>Leciel After Movie</h1><hr>
+   <video width="1500" height="450" controls>
+  <source src="final.mp4" type="video/mp4" autoplay=1 loop playsinline muted>
+</video>
+<h1> Reach us</h1><hr>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.6677865554675!2d79.84352691462449!3d10.988428892177893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a55112c91a20079%3A0xee7677dfa4776c23!2sNIT%2C%20Puducherry!5e0!3m2!1sen!2sin!4v1600007934260!5m2!1sen!2sin" width="1500" height="450" frameborder="0" style="border:3;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<hr>
+    <div id = "final">
+    <h1> Email us</h1><hr>
+    <h1  style="text-align:center;"><font color="black",size="4", face = "Verdana">director@nitpy.ac.in</h1>
+    <h4 style="text-align:center;"><font color="grey",size="4", face = "Verdana">Copyright webteam@NITPuducherry</font></h4>
+    </div>
+
+    </body>
+</html>
